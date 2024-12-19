@@ -2,7 +2,7 @@
 
 A simple and responsive web app for managing and displaying bookmarks. Built using **HTML** and **CSS**, this app is optimized for mobile, tablet, and desktop devices. Users can manually add their favourite links directly into the HTML file for quick access.
 
----
+<br>
 
 ## 🌟 Features
 
@@ -11,15 +11,15 @@ A simple and responsive web app for managing and displaying bookmarks. Built usi
 - **Manual Bookmarking**: Easily add or update bookmarks directly in the HTML file.
 - **Lightweight**: No JavaScript or backend—perfect for static hosting.
 
----
+<br>
 
 ## 📂 Project Structure
 
-├── index.html # Main HTML file with bookmarks 
-├── styles.css # CSS file for styling and responsiveness 
-└── README.md # Project documentation
+- `index.html` — Main HTML file with bookmarks
+- `styles.css` — CSS file for styling and responsiveness
+- `README.md` — Project documentation
 
----
+<br>
 
 ## 🚀 How to Use
 
@@ -30,36 +30,41 @@ A simple and responsive web app for managing and displaying bookmarks. Built usi
 2. Open index.html in your favorite code editor.
    
 3. Add your bookmarks manually in the #bookmarks section of the HTML:
-<div class="bookmark">
-  <a href="https://example.com" target="_blank">Example</a>
-</div>
+   ```
+   <div class="bookmark">
+     <a href="https://example.com" target="_blank">Example</a>
+   </div>
 
 4. Open index.html in your browser to view the app.
 
----
+<br>
 
-🎨 Customization
+## 🎨 Customization
 Feel free to modify the styles in styles.css to match your preferences:
 
-Change colours, fonts, or spacing.
-Adjust the grid layout for bookmarks.
+- Change colours, fonts, or spacing.
+- Adjust the grid layout for bookmarks.
+  
+<br>
 
----
+## 🖥️ Preview
 
-Desktop
-![image](https://github.com/user-attachments/assets/c6310123-8269-4e73-a6d0-70889783dea1)
+- Desktop 
+<img src="https://github.com/user-attachments/assets/c6310123-8269-4e73-a6d0-70889783dea1" alt="Image 1" width="400">
 
-Tablet
-![image](https://github.com/user-attachments/assets/9691acb4-b60c-4375-bca5-3a63d2d04eb6)
+--
+- Tablet
+<img src="https://github.com/user-attachments/assets/9691acb4-b60c-4375-bca5-3a63d2d04eb6" alt="Image 2" width="200">
 
-Mobile
-![image](https://github.com/user-attachments/assets/899be8e4-240b-43b7-b868-060f10ace194)
+--
+- Mobile
+<img src="https://github.com/user-attachments/assets/899be8e4-240b-43b7-b868-060f10ace194" alt="Image 3" width="150">
 
----
+<br><br>
 
-📬 Contact
+## 📬 Contact
 If you have any questions or suggestions, feel free to reach out:
 
-GitHub: [SutharHarsh](https://github.com/SutharHarsh)
-Email: sutharharshp01@gmail.com
+- GitHub: [SutharHarsh](https://github.com/SutharHarsh)
+- Email: sutharharshp01@gmail.com
 

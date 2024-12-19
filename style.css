@@ -1,0 +1,96 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 1rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+form input,
+form button {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+form input {
+  flex: 1 1 auto;
+}
+
+form button {
+  flex: 0 1 auto;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+/* Bookmark List */
+#bookmarks {
+  display: grid;
+  gap: 1rem;
+}
+
+/* Bookmark Item */
+.bookmark {
+  padding: 1rem;
+  border: 1px solid #727272;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bookmark a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.bookmark a:hover {
+  text-decoration: underline;
+}
+
+/* Responsiveness */
+@media (max-width: 600px) {
+  #bookmarks {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  #bookmarks {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1025px) {
+  #bookmarks {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
